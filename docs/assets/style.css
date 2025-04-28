@@ -79,6 +79,34 @@ section#inicio {
     height: 100vh;
 }
 
+
+/* Estilização dos ícones de conhecimentos */
+.icon-tech {
+    font-size: 2rem !important;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.icon-tech.colored {
+    font-size: 2rem !important;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+ul li i {
+    font-size: 18px;
+    color: #007bff; /* Você pode ajustar a cor dos ícones */
+}
+
+
 section#inicio h2{
     font-size: 6rem;
 }
@@ -116,6 +144,16 @@ i.menu-mobile {
     justify-content: center;
     align-items: center;
 }
+
+.zoom-effect {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.zoom-effect:hover {
+    transform: scale(1.20);
+}
+
 
 .menu-nav-active {
     overflow: hidden;
